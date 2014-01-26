@@ -1,0 +1,44 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+            
+        
+    
+    <WebView 
+        android:id="@+id/webView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:layout_weight="1">
+    
+    <Button 
+        android:id="@+id/button1"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/wikipedia"
+        android:layout_weight="1"
+        android:onClick="openWiki"
+        />
+    
+    <Button 
+        android:id="@+id/button2"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/showPicture"
+        android:layout_weight="1"
+        android:onClick="displayPic"
+        />
+
+    </LinearLayout>
+    
+    </LinearLayout>
